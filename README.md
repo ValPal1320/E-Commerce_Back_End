@@ -2,23 +2,30 @@
 
 ## Table of Contents
   * [Description](#description)
-  * [Installation](#installation)
+  * [Installation/Usage](#installation/usage)
   * [Usage](#usage)
   * [Technology](#technology)
   * [Contribution](#contribute)
   * [Questions](#questions)
 
 ## Description
+The back-end for an e-commerce site. Allows the user/company to create a database and track the inventory of items in stock using JSON objects(GET, POST, PUT, DELETE).
 
+To see how the application works, click [HERE](https://drive.google.com/file/d/1TPgRP6tbJFzO1wKOb6TW88kv5ZhnMI1c/view) for a demo video.
 
-To see how the application works, click [HERE]() for a demo video.
+## Installation/Usage
+1. Clone the repo locally.
+2. Run `npm install`
+3. Run `mysql -u root -p`
+4. Run `source db/schema.sql`, then `exit`
+5. Run `npm run seed`
+6. Lastly, run `npm start`
 
-## Installation
+![Insomnia Products](./assets/imgs/products.PNG)
 
-## Usage
+![Insomnia Categories](./assets/imgs/categories.PNG)
 
-
-![Screenshot]()
+![Insomnia Tags](./assets/imgs/tags.PNG)
 
 ## Technology
   * MySQL2
